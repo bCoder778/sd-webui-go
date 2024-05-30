@@ -128,6 +128,9 @@ type StableDiffusionProcessingTxt2Img struct {
 	// Sampler Name
 	SamplerName string `json:"sampler_name,omitempty"`
 
+	// Scheduler Type
+	Scheduler string `json:"scheduler,omitempty"`
+
 	// Save Images
 	SaveImages *bool `json:"save_images,omitempty"`
 
