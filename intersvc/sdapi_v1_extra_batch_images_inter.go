@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	webui "github.com/SpenserCai/sd-webui-go"
-	SdApiOperation "github.com/SpenserCai/sd-webui-go/stablediffusion/client/operations"
+	webui "github.com/bCoder778/sd-webui-go"
+	SdApiOperation "github.com/bCoder778/sd-webui-go/stablediffusion/client/operations"
 )
 
 // API Path: /sdapi/v1/extra-batch-images

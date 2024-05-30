@@ -8,7 +8,7 @@
  */
 package intersvc
 
-// SdApiModel "github.com/SpenserCai/sd-webui-go/stablediffusion/models"
+// SdApiModel "github.com/bCoder778/sd-webui-go/stablediffusion/models"
 
 type AppIdResponse struct {
 	AppId string `json:"app_id"`

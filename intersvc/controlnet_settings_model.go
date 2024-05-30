@@ -8,7 +8,7 @@
  */
 package intersvc
 
-// SdApiModel "github.com/SpenserCai/sd-webui-go/stablediffusion/models"
+// SdApiModel "github.com/bCoder778/sd-webui-go/stablediffusion/models"
 
 type ControlnetSettingsResponse struct {
 	ControlNetMaxModelsNum int `json:"control_net_max_models_num"`

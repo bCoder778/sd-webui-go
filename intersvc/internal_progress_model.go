@@ -1,11 +1,10 @@
 package intersvc
 
 import (
-	SdApiModel "github.com/SpenserCai/sd-webui-go/stablediffusion/models"
+	SdApiModel "github.com/bCoder778/sd-webui-go/stablediffusion/models"
 )
 
 type InternalProgressRequest = SdApiModel.ProgressRequest
 
 type InternalProgressResponse struct {
-
 }

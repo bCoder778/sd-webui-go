@@ -25,11 +25,11 @@ Golang SDK for [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-
     <img src="https://img.shields.io/github/license/SpenserCai/sd-webui-go?color=blueviolet" alt="license">
   </a>
   <img src="https://img.shields.io/badge/Go-1.19+-blue" alt="go">
-  <a href="https://github.com/SpenserCai/sd-webui-go/releases">
+  <a href="https://github.com/bCoder778/sd-webui-go/releases">
     <img src="https://img.shields.io/github/v/release/SpenserCai/sd-webui-go?color=rgb(255%2C0%2C0)&include_prereleases" alt="release">
   </a>
-  <a href="https://goreportcard.com/report/github.com/SpenserCai/sd-webui-go">
-    <img src="https://goreportcard.com/badge/github.com/SpenserCai/sd-webui-go" alt="GoReportCard">
+  <a href="https://goreportcard.com/report/github.com/bCoder778/sd-webui-go">
+    <img src="https://goreportcard.com/badge/github.com/bCoder778/sd-webui-go" alt="GoReportCard">
   </a>
   <a href="https://discord.gg/nN6b7QAcVW">
   <img src="https://discordapp.com/api/guilds/1140177489008807966/widget.png?style=shield" alt="Discord Server">
@@ -40,7 +40,7 @@ This is a Go language version of the SDK based on [stable-diffusion-webui](https
 
 Support extensions API !
 
-<b>You can check the support list for intersvc in this [wiki page](https://github.com/SpenserCai/sd-webui-go/wiki/Intersvc-Support-List).</b>
+<b>You can check the support list for intersvc in this [wiki page](https://github.com/bCoder778/sd-webui-go/wiki/Intersvc-Support-List).</b>
 
 ## Usage
 There are two methods to use the SDK. 
@@ -62,9 +62,9 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	SdClient "github.com/SpenserCai/sd-webui-go"
-	SdApiOperation "github.com/SpenserCai/sd-webui-go/stablediffusion/client/operations"
-	SdApiModel "github.com/SpenserCai/sd-webui-go/stablediffusion/models"
+	SdClient "github.com/bCoder778/sd-webui-go"
+	SdApiOperation "github.com/bCoder778/sd-webui-go/stablediffusion/client/operations"
+	SdApiModel "github.com/bCoder778/sd-webui-go/stablediffusion/models"
 )
 
 func MustBeNil(err error) {
@@ -101,8 +101,8 @@ func main() {
 
 ```go
 import (
-	SdClient "github.com/SpenserCai/sd-webui-go"
-	"github.com/SpenserCai/sd-webui-go/intersvc"
+	SdClient "github.com/bCoder778/sd-webui-go"
+	"github.com/bCoder778/sd-webui-go/intersvc"
 )
 
 func main() {
@@ -140,10 +140,10 @@ import (
 	"encoding/base64"
 	"os"
 	
-	SdClient "github.com/SpenserCai/sd-webui-go"
-	intersvc "github.com/SpenserCai/sd-webui-go/intersvc"
-	SdApiOperation "github.com/SpenserCai/sd-webui-go/stablediffusion/client/operations"
-	SdApiModel "github.com/SpenserCai/sd-webui-go/stablediffusion/models"
+	SdClient "github.com/bCoder778/sd-webui-go"
+	intersvc "github.com/bCoder778/sd-webui-go/intersvc"
+	SdApiOperation "github.com/bCoder778/sd-webui-go/stablediffusion/client/operations"
+	SdApiModel "github.com/bCoder778/sd-webui-go/stablediffusion/models"
 )
 
 type DeoldifyResponse struct {

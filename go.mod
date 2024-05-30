@@ -1,4 +1,4 @@
-module github.com/SpenserCai/sd-webui-go
+module github.com/bCoder778/sd-webui-go
 
 go 1.19
 

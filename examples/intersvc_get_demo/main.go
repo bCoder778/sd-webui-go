@@ -11,8 +11,8 @@ package main
 import (
 	"fmt"
 
-	SdClient "github.com/SpenserCai/sd-webui-go"
-	"github.com/SpenserCai/sd-webui-go/intersvc"
+	SdClient "github.com/bCoder778/sd-webui-go"
+	"github.com/bCoder778/sd-webui-go/intersvc"
 )
 
 func main() {

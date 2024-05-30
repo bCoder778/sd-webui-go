@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/SpenserCai/sd-webui-go/stablediffusion/models"
+	"github.com/bCoder778/sd-webui-go/stablediffusion/models"
 )
 
 // NewImg2imgapiSdapiV1Img2imgPostParams creates a new Img2imgapiSdapiV1Img2imgPostParams object,

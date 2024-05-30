@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/SpenserCai/sd-webui-go/stablediffusion/models"
+	"github.com/bCoder778/sd-webui-go/stablediffusion/models"
 )
 
 // NewDeoldifyImageDeoldifyImagePostParams creates a new DeoldifyImageDeoldifyImagePostParams object,

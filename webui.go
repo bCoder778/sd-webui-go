@@ -13,7 +13,7 @@ import (
 
 	rclient "github.com/go-openapi/runtime/client"
 
-	StableDiffClient "github.com/SpenserCai/sd-webui-go/stablediffusion/client"
+	StableDiffClient "github.com/bCoder778/sd-webui-go/stablediffusion/client"
 
 	"github.com/go-openapi/strfmt"
 )

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/SpenserCai/sd-webui-go/stablediffusion/models"
+	"github.com/bCoder778/sd-webui-go/stablediffusion/models"
 )
 
 // RefreshCheckpointsSdapiV1RefreshCheckpointsPostReader is a Reader for the RefreshCheckpointsSdapiV1RefreshCheckpointsPost structure.

@@ -12,10 +12,10 @@ import (
 	"encoding/base64"
 	"os"
 
-	SdClient "github.com/SpenserCai/sd-webui-go"
-	intersvc "github.com/SpenserCai/sd-webui-go/intersvc"
-	SdApiOperation "github.com/SpenserCai/sd-webui-go/stablediffusion/client/operations"
-	SdApiModel "github.com/SpenserCai/sd-webui-go/stablediffusion/models"
+	SdClient "github.com/bCoder778/sd-webui-go"
+	intersvc "github.com/bCoder778/sd-webui-go/intersvc"
+	SdApiOperation "github.com/bCoder778/sd-webui-go/stablediffusion/client/operations"
+	SdApiModel "github.com/bCoder778/sd-webui-go/stablediffusion/models"
 )
 
 type DeoldifyResponse struct {
